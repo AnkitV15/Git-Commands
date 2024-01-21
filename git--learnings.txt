@@ -14,3 +14,8 @@
 14) git pull -- automatically update changes in local repository from central repository 
 15) git remote rename oldname newname -- change remote name of url
 16) git remote remove remotename -- remove remote name 
+17) git remote show origin -- shows a detailed information of remote reference
+18) git branch -- lists the branch
+19) git branch branchname -- creates a branch
+20) git checkout branchname -- moves to a new branch
+21) git checkout -b branchname -- creates and moves to a new branch
