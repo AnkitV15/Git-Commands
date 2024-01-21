@@ -30,3 +30,7 @@
 30) git stash drop -- deletes the latest stash or the most recent one ( you can also delete the specific one with stashname ) placed the name infront of command
 31) git stash clear -- clears the all stash files
 32) git tag -- lists the tagsnin alphabetical order
+33) git push origin tagname -- push tags to remote reference
+34) git push origin  --tags -- this would push all the tags
+35) git tag -d tagname -- delete a tag from local repository
+36) git push origin --delete tagname -- delete a tag from remote repository
