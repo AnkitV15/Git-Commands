@@ -19,3 +19,14 @@
 19) git branch branchname -- creates a branch
 20) git checkout branchname -- moves to a new branch
 21) git checkout -b branchname -- creates and moves to a new branch
+22) git push remotename branchname -- push to central repository to branch
+23) git stash save -- to save an incomplete work but don't want to commit (note: the file must be tracked or should be in staging area
+24) git stash list -- lists the stash files 
+25) git stash apply -- to get the stash files back and get working on those incomplete changes (note: if would only get back the first stash file)
+26) git stash apply stashname -- get the exact stash files
+27) git stash pop -- similar to git stash apply only difference is pop drops the file record from stash list and apply doesn't
+28) git stash show -- show difference between file changes
+29) git stash show stashname -- shows differences between exact files
+30) git stash drop -- deletes the latest stash or the most recent one ( you can also delete the specific one with stashname ) placed the name infront of command
+31) git stash clear -- clears the all stash files
+32) git tag -- lists the tagsnin alphabetical order
