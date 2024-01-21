@@ -34,3 +34,8 @@
 34) git push origin  --tags -- this would push all the tags
 35) git tag -d tagname -- delete a tag from local repository
 36) git push origin --delete tagname -- delete a tag from remote repository
+37) git merge branchname -- merges the branch specified into current branch and maintains a history of that branch
+38) git rebase branchname -- merges the branch with current branch without keeping commit history
+39) git pull --rebase origin main -- tells which file is causing merge conflict in local repository
+40) git mergetool -- manually conflicts is solved using this cmd
+41) git rebase --continue -- enter this command after mergetool to continue with changes done
