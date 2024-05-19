@@ -39,3 +39,4 @@
 39) git pull --rebase origin main -- tells which file is causing merge conflict in local repository
 40) git mergetool -- manually conflicts is solved using this cmd
 41) git rebase --continue -- enter this command after mergetool to continue with changes done
+42) git rm --cached -r 'filename' -- this command removes current commit
