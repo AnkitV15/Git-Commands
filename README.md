@@ -41,3 +41,8 @@
 ### 40) git mergetool -- manually conflicts is solved using this cmd
 ### 41) git rebase --continue -- enter this command after mergetool to continue with changes done
 ### 42) git rm --cached -r 'filename' -- this command removes current commit
+### 43) git branch -d branchname -- deletes a local branch 
+### 44) git branch -D branchname -- if not updated/ not fully merged, still you want to delete
+### 45) git branch -r -- list all remote repository
+### 46) git push origin --delete branchname -- delete a remote branch 
+
